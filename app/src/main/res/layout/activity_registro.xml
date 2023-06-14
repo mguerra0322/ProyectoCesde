@@ -72,7 +72,7 @@
         android:ems="10"
         android:fontFamily="sans-serif-black"
         android:inputType="textPersonName"
-        android:text="Clave"
+        android:text="clave"
         android:textColor="#938F8F"
         android:textSize="22dp" />
 
