@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#298004"
+    tools:context=".MainPage">
+
+    <TextView
+        android:id="@+id/txthola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginBottom="84dp"
+        android:text="Hola"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtCorreo"
+        app:layout_constraintStart_toStartOf="@+id/imglobo"
+        app:layout_constraintTop_toBottomOf="@+id/imglobo" />
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
+        android:layout_marginBottom="104dp"
+        android:hint="Correo"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txthola" />
+
+    <ImageView
+        android:id="@+id/imglobo"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginBottom="39dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/txthola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wolf" />
+</androidx.constraintlayout.widget.ConstraintLayout>
